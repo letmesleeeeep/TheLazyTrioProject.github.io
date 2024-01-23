@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TheLazyTrio Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="sidebar.css" rel="stylesheet">
+    <link href="teamimage.css" rel="stylesheet">
+    <style>
+        body.dark-theme {
+            background-color: #1f2e2e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="toggleDarkMode()">Toggle dark mode</button>
+
+    <script>
+		function toggleDarkMode() {
+			document.body.classList.toggle("dark-theme");
+		}
+    </script>
+
+    <nav>
+        <ul>
+            <li class="logo"><img alt="Logo" src="logo.png"></li>
+            <li><a href="html.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa fa-book"></i> About</a></li>
+            <li><a href="team.html"><i class="fa fa-users"></i> Team</a></li>
+            <li><a href=Images.html><i class="fa fa-picture-o"></i> Images</a></li>
+            <li><a href=Contact.html><i class="fa fa-phone"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="wrapper">
+        <div class="section">
+            <div class="box-area">
+                <h2>Team</h2>
+                <br />
+                <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/7/5/1309872930991/One-of-the-photos-taken-b-012.jpg?width=700&quality=85&auto=format&fit=max&s=097976e8381a694251bc69ead48cfc60"
+                     width="300"
+                     height="450" /><img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/7/5/1309872930991/One-of-the-photos-taken-b-012.jpg?width=700&quality=85&auto=format&fit=max&s=097976e8381a694251bc69ead48cfc60"
+     width="300"
+     height="450" /><img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2011/7/5/1309872930991/One-of-the-photos-taken-b-012.jpg?width=700&quality=85&auto=format&fit=max&s=097976e8381a694251bc69ead48cfc60"
+     width="300"
+     height="450" />
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
